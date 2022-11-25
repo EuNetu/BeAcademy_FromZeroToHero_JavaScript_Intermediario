@@ -10,20 +10,20 @@ function User(userName, password, age) {
 const user = 'Sophia'
 
 const tv = {
-  resolucao: '4k',
+  resolution: '4k',
   smartTV: true,
-  ano: 2020,
-  especificacoes: (price) => console.log(`Com uma resolução de ${tv.resolucao} e sendo uma tv de ${tv.ano}, por apenas ${price != null ? price: 'poucos'} reais.`)
+  year: 2020,
+  especificacoes: (price) => console.log(`Com uma resolução de ${tv.resolution} e sendo uma tv de ${tv.year}, por apenas ${price != null ? price: 'poucos'} reais.`)
 }
 
 // tv.especificacoes()
 // tv.especificacoes(3800)
 
 const lg = {
-  marca: 'LG'
+  mark: 'LG'
 }
 const samsung = {
-  marca: 'Samsung'
+  mark: 'Samsung'
 }
 
 Object.setPrototypeOf(lg, tv)
