@@ -16,13 +16,18 @@ const tv = {
   especificacoes: (price) => console.log(`Com uma resolução de ${tv.resolucao} e sendo uma tv de ${tv.ano}, por apenas ${price != null ? price: 'poucos'} reais.`)
 }
 
-tv.especificacoes()
-tv.especificacoes(3800)
+// tv.especificacoes()
+// tv.especificacoes(3800)
 
 const lg = {
   marca: 'LG'
 }
+const samsung = {
+  marca: 'Samsung'
+}
 
 Object.setPrototypeOf(lg, tv)
+Object.setPrototypeOf(samsung, tv)
 
 lg.especificacoes(2800)
+samsung.especificacoes()
