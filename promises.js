@@ -25,4 +25,4 @@ function firstUser(userId) {
     .then(data => console.log(data));
 }
 
-firstUser(EuNetu)
+firstUser('EuNetu')
