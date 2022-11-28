@@ -19,19 +19,14 @@ console.log(nameFunction);
 
 //Convertendo para uma arow function
 
-const hello = textoEntrada => `Hello ${textoEntrada}`
+const hello = (textoEntrada) => `Hello ${textoEntrada}`;
 
-console.log(hello('World'));
+console.log(hello("World"));
 
 //Arrow function com função map
 
-const grades = [
-  7,
-  5,
-  10,
-  4
-]
+const grades = [7, 5, 10, 4];
 
-const ExtraPoint = grades.map(grade =>  grade < 8.5 ? grade + 1.5: grade)
+const ExtraPoint = grades.map((grade) => (grade < 8.5 ? grade + 1.5 : grade));
 
-console.log(ExtraPoint)
+console.log(ExtraPoint);

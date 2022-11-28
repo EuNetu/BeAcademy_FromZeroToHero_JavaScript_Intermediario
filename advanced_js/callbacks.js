@@ -4,11 +4,11 @@ function hello(name) {
 }
 
 function helloUser(n) {
-  n('Neto')
+  n("Neto");
 }
 
 //helloUser(hello)
 
-const callback = e => alert('Foi clicado')
+const callback = (e) => alert("Foi clicado");
 
-window.addEventListener('click', callback)
+window.addEventListener("click", callback);

@@ -13,7 +13,7 @@ function function1() {
   }
 }
 
-function1()
+function1();
 
 function function2() {
   console.log("function2 executou");
@@ -28,8 +28,8 @@ function function2() {
 function main() {
   console.log("main executou");
   try {
-    function1()
-    function2()
+    function1();
+    function2();
   } catch (e) {
     console.error("Erro na main --->", e);
   }

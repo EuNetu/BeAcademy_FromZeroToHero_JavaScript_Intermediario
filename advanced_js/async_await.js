@@ -17,11 +17,11 @@ async function user() {
     let data = await response.json();
     console.log(data);
   } catch (error) {
-    console.log('error', error);
-    throw new Error('Erro no fetch')
+    console.log("error", error);
+    throw new Error("Erro no fetch");
   } finally {
-    console.log('Acabou')
+    console.log("Acabou");
   }
 }
 
-user()
+user();
